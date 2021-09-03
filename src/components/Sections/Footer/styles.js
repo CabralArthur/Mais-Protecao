@@ -47,7 +47,7 @@ export const RightSide = styled.div`
     display: flex;
     flex-direction: column;
     gap: 1rem;
-    width: 400px;
+    max-width: 400px;
     text-align: right;
     line-height: 2;
     h2{
