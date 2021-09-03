@@ -15,6 +15,7 @@ export default createGlobalStyle`
     min-height: 100%;
     background: var(--primary);
     overflow-x: hidden;
+    scroll-behavior: smooth;
     animation: showAll .5s;
   }
 
