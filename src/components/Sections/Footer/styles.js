@@ -21,7 +21,7 @@ export const MainFooter = styled.footer`
     }
 `
 
-export const LeftSide = styled.p`
+export const LeftSide = styled.div`
     display: flex;
     flex-direction: column;
     gap: 1rem;
@@ -43,13 +43,13 @@ export const LeftSide = styled.p`
     }
 `
 
-export const RightSide = styled.p`
+export const RightSide = styled.div`
     display: flex;
     flex-direction: column;
     gap: 1rem;
     width: 400px;
     text-align: right;
-    line-height: 1.5;
+    line-height: 2;
     h2{
         color: #015FEA;
     }

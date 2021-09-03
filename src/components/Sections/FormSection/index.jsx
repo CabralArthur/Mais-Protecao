@@ -32,6 +32,12 @@ const FormSection = () => {
                         <option value="Moto">Moto</option>
                     </select>
 
+                    <label htmlFor="$Modelo">Modelo</label>
+                    <input type="text" name="$Modelo" />
+
+                    <label htmlFor="$Placa">Placa</label>
+                    <input type="text" name="$Placa" />
+
                     <label htmlFor="$Onde Nos Achou?">Onde Nos Achou?</label>
                     <select name="$Onde Nos Achou?" value={fonte} onChange={texto => setFonte(texto.target.value)}>
                         <option value="">Selecione</option>
@@ -40,6 +46,7 @@ const FormSection = () => {
                         <option value="Instagram">Instagram</option>
                         <option value="Flyer">Flyer</option>
                     </select>
+
                 </div>
                 <input type="hidden" name="redirectTo" value="http://localhost:3000/" />
                 <input type="submit" value="Enviar" className='button'/>

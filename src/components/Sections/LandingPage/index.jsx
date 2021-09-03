@@ -12,8 +12,8 @@ import Footer from '../Footer'
 const LandingPage = () => {
     return (
         <>
+            <Header/>
             <LandingPageMain>
-                <Header/>
                 <HomeSection/>
                 <CarouselSection/>
                 <CardsContainer/>

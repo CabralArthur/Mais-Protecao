@@ -22,6 +22,11 @@ const ForYouSection = () => {
                 <Cards>
 
                     <BenefitCard
+                        component={<ImHammer2 />}
+                        title="Consulta Jurídica"
+                    />
+
+                    <BenefitCard
                         component={<GiMechanicGarage />}
                         title="Socorro Elétrico ou Mecânico"
                     />
@@ -106,11 +111,6 @@ const ForYouSection = () => {
                         title="Chaveiros"
                     />
 
-                    <BenefitCard
-                        component={<ImHammer2 />}
-                        title="Consulta Jurídica"
-                    />
-                    
                 </Cards>
             </Content>
         </Container>

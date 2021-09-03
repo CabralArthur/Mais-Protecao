@@ -16,8 +16,6 @@ const ContactSection = () => {
                         </h2>
                         <p>
                             Segunda à Sexta - 08:00 às 18:00
-                            <br/>
-                            Sábado - 08:00 às 12:00
                         </p>
                     </div>
 

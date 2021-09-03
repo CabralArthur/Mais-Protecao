@@ -9,7 +9,7 @@ export const Content = styled.div`
     max-width: 1400px;
     margin: 0 auto;
     text-align: center;
-    padding: 1rem 0;
+    padding: 6rem 0;
 `
 
 export const MainTitle = styled.h1`

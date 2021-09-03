@@ -15,7 +15,7 @@ const HomeSection = () => {
                         A <b>Mais</b> Proteção é uma associação que preza 
                         pela assistência transparente, eficaz e agil.
                     </p>
-                    <ButtonForm>
+                    <ButtonForm href='#solicitar-cotacao'>
                         Solicitar Cotação
                     </ButtonForm>
                 </div>

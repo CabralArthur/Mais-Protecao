@@ -1,8 +1,11 @@
 import styled from "styled-components";
+import { GiHamburgerMenu } from 'react-icons/gi'
 
 export const MainHeader = styled.header`
     width: 100%;
     height: 80px;
+    position: fixed;
+    z-index: 100;
     background-color: #F8F8F8;
 `
 
@@ -41,6 +44,36 @@ export const Container = styled.nav`
                 background-color: #015FEA;
             }
         }
+        @media all and (max-width: 760px) {
+            display: none;
+        }
+    }
+    `
+
+export const Hamburger = styled(GiHamburgerMenu)`
+    color: #015FEA;
+    display: none;
+    @media all and (max-width: 760px){
+        display: block;
+        font-size: 2rem;
+        margin: 0 2rem;
+    }
+`
+
+export const MobileUL = styled.ul`
+    width: 100%;
+    padding: 1rem 2rem;
+    height: 230px;
+    line-height: 2.5;
+    text-align: right;
+    display: none;
+    background-color: #015FEA;
+    @media all and (max-width: 760px){
+        flex-direction: column;
+        a{
+            color: #FFFFFF;
+            text-decoration: none;
+        }
     }
 `
 
@@ -57,5 +90,9 @@ export const ContactButton = styled.a`
     }
     &:hover:before{
         width: 0 !important;
+    }
+    @media all and (max-width: 760px){
+        background-color: #FFFFFF;
+        color: #015FEA !important;
     }
 `

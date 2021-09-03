@@ -44,6 +44,10 @@ export const Card = styled.div`
             font-size: .75rem;
         }
     }
+
+    @media all and (max-width: 1028px){
+        padding: 0;
+    }
 `
 
 export const DivIcon = styled.div`

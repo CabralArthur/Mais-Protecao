@@ -14,18 +14,13 @@ export const MainTitle = styled.h1`
     padding: 2rem 0;
     color: #015FEA;
 `
-
-export const CardsDiv = styled.div`
-    width: 90%;
-    padding: 2rem;
-    display: flex;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-`
-
 export const Container = styled.div`
     display: flex;
-    flex-wrap: wrap;
     gap: .5rem;
+    @media all and (max-width: 1028px){
+        width: 100vw;
+        flex-direction: column;
+        align-items: center;
+        justify-items: center;
+    }
 `

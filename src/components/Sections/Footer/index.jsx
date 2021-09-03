@@ -2,7 +2,6 @@ import React from 'react'
 import { MainFooter, Content, LeftSide, RightSide } from './styles'
 import LogoSource from '../../../assets/img/logo-empresa.svg'
 import { AiFillInstagram, AiFillFacebook } from 'react-icons/ai'
-import { IoLogoGooglePlaystore } from 'react-icons/io5'
 
 const Footer = () => {
     return (
@@ -14,23 +13,27 @@ const Footer = () => {
                         Nós estamos no Instagram e Facebook acesse os links abaixo para seguir a Mais Proteção nas redes Sociais.
                     </span>
                     <div>
-                        <AiFillInstagram />
-                        <AiFillFacebook />
-                        <IoLogoGooglePlaystore />
+                        <a href="https://www.instagram.com/maisprotecaoassociados/" target='_blank' rel='noreferrer'>
+                            <AiFillInstagram />
+                        </a>
+                        <a href="https://www.facebook.com/maisprotecaoassociados" target='_blank' rel='noreferrer'>
+                            <AiFillFacebook />
+                        </a>
                     </div>
                 </LeftSide>
                 <RightSide>
                     <h2>Nossos Contatos</h2>
                     <br/>
-                    (83) 3507-1001
+                    Assistência 24 horas
                     <br/>
-                    (83) 3013-0300
+                    0800 841 7070
                     <br/>
-                    (83) 99643-4011
+                    Sede
                     <br/>
-                    Av. Pres. Epitácio Pessoa, 4940 - Loja 208, Cabo Branco
+                    83 3023-7625
                     <br/>
-                    João Pessoa-PB | CEP: 58033-455.
+                    Avenida Senador Ruy Carneiro, 201 - Brisamar, João Pessoa - PB, 58032-100
+                    <br/>
                 </RightSide>
             </Content>
         </MainFooter>

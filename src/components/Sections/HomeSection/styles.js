@@ -9,6 +9,7 @@ export const Container = styled.div`
     justify-content: center;
     flex-direction: column;
     gap: 6rem;
+    margin-top: 4rem;
 `
 
 export const Content = styled.div`
@@ -49,6 +50,7 @@ export const ButtonForm = styled.a`
     color: #FFFFFF;
     border-radius: 10px;
     transition: all .2s;
+    text-decoration: none;
     &:hover{
         color: #015FEA;
         cursor: pointer;

@@ -32,7 +32,6 @@ export const Card = styled.div`
         }
     }
     transition: all .5s;
-    margin: 1rem;
     &:hover{
         transform: scale(1.2);
     }
