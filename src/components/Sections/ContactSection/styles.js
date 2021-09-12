@@ -24,6 +24,23 @@ export const Container = styled.div`
 export const MainTitle = styled.h1`
     font-size: 2rem;
     color: #015FEA;
+    position: relative;
+    &::before{
+        content: "";
+        position: absolute;
+        left: .5rem;
+        top: -8px;
+        width: 120px;
+        border-top: 3px solid #015FEA;
+    }
+    &::after{
+        content: "";
+        position: absolute;
+        left: -0.75rem;
+        top: 50px;
+        width: 160px;
+        border-top: 3px solid #015FEA;
+    }
 `
 
 export const Content = styled.div`

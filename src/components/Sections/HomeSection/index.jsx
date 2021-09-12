@@ -8,12 +8,12 @@ const HomeSection = () => {
             <Content>
                 <div>
                     <h1>
-                        Tenha seus benefícios
-                        na palma de sua mão!
+                        A Mais Proteção é uma associação que preza 
+                        pela assistência transparente, eficaz e agil.
                     </h1>
                     <p>
-                        A <b>Mais</b> Proteção é uma associação que preza 
-                        pela assistência transparente, eficaz e agil.
+                        Seu veículo protegido contra roubo, furto e colisão,
+                        com rastreamento assistência 24 horas e vários outros benefícios
                     </p>
                     <ButtonForm href='#solicitar-cotacao'>
                         Solicitar Cotação

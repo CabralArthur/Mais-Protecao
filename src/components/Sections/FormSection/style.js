@@ -55,4 +55,21 @@ export const Container = styled.div`
 export const TitleMain = styled.h1`
     font-size: 2rem;
     color: #015FEA;
+    position: relative;
+    &::before{
+        content: "";
+        position: absolute;
+        left: 4.5rem;
+        top: -8px;
+        width: 120px;
+        border-top: 3px solid #015FEA;
+    }
+    &::after{
+        content: "";
+        position: absolute;
+        left: 2rem;
+        top: 50px;
+        width: 200px;
+        border-top: 3px solid #015FEA;
+    }
 `

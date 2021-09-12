@@ -13,6 +13,7 @@ export const Content = styled.div`
 `
 
 export const MainTitle = styled.h1`
+    font-size: 2rem;
     color: #015FEA;
 `
 

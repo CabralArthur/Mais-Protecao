@@ -23,7 +23,7 @@ export const Content = styled.div`
         gap: 1rem;
         flex-direction: column;
         h1{
-            font-size: 2.25rem;
+            font-size: 1.5rem;
             color: #015FEA;
         }
         p{
