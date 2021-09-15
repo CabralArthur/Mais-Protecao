@@ -44,7 +44,7 @@ export const Container = styled.nav`
                 background-color: #015FEA;
             }
         }
-        @media all and (max-width: 760px) {
+        @media all and (max-width: 600px) {
             display: none;
         }
     }
@@ -53,7 +53,7 @@ export const Container = styled.nav`
 export const Hamburger = styled(GiHamburgerMenu)`
     color: #015FEA;
     display: none;
-    @media all and (max-width: 760px){
+    @media all and (max-width: 600px){
         display: block;
         font-size: 2rem;
         margin: 0 2rem;
@@ -63,7 +63,7 @@ export const Hamburger = styled(GiHamburgerMenu)`
 export const MobileUL = styled.ul`
     width: 100%;
     padding: 1rem 2rem;
-    height: 230px;
+    height: 300px;
     line-height: 2.5;
     text-align: right;
     display: none;
