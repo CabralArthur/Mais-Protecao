@@ -8,6 +8,7 @@ import ForYouSection from '../ForYouSection'
 import FormSection from '../FormSection'
 import ContactSection from '../ContactSection'
 import Footer from '../Footer'
+import AboutSection from '../AboutSection'
 
 const LandingPage = () => {
     return (
@@ -15,6 +16,7 @@ const LandingPage = () => {
             <Header/>
             <LandingPageMain>
                 <HomeSection/>
+                <AboutSection/>
                 <CarouselSection/>
                 <CardsContainer/>
                 <ForYouSection/>

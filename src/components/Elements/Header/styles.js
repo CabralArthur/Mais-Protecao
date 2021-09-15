@@ -10,7 +10,7 @@ export const MainHeader = styled.header`
 `
 
 export const Container = styled.nav`
-    max-width: 900px;
+    max-width: 1030px;
     height: 100%;
     margin: 0 auto;
     display: flex;
@@ -20,7 +20,7 @@ export const Container = styled.nav`
     ul{
         display: flex;
         flex-wrap: wrap;
-        gap: 1rem;
+        gap: 1.2rem;
         a{
             text-decoration: none;
             position: relative;

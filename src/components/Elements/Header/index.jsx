@@ -21,6 +21,12 @@ const Header = () => {
                 </a>
                 <ul>
                     <li>
+                        <a href='/'>Home</a>
+                    </li>
+                    <li>
+                        <a href='#sobre-nos'>Sobre</a>
+                    </li>
+                    <li>
                         <a href='#clube-de-beneficios'>Clube De Benefícios</a>
                     </li>
                     <li>
