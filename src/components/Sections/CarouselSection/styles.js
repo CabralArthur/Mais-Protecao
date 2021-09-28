@@ -24,6 +24,9 @@ export const MainTitle = styled.h1`
         top: 20px;
         width: 150px;
         border-top: 3px solid #015FEA;
+        @media all and (max-width: 900px) {
+            display: none
+        }
     }
     &::after{
         content: "";
@@ -32,5 +35,8 @@ export const MainTitle = styled.h1`
         top: 85px;
         width: 175px;
         border-top: 3px solid #015FEA;
+        @media all and (max-width: 900px) {
+            display: none;
+        }
     }
 `
