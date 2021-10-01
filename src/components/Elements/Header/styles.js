@@ -63,7 +63,7 @@ export const Hamburger = styled(GiHamburgerMenu)`
 export const MobileUL = styled.ul`
     width: 100%;
     padding: 1rem 2rem;
-    height: 300px;
+    height: 230px;
     line-height: 2.5;
     text-align: right;
     display: none;
