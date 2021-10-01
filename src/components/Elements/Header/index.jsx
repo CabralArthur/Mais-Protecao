@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import LogoSource from '../../../assets/img/logo-empresa.svg'
-import { MainHeader, Container, ContactButton, MobileUL, Hamburger } from './styles'
+import { MainHeader, Container, MobileUL, Hamburger } from './styles'
 
 const Header = () => {
 
@@ -35,11 +35,6 @@ const Header = () => {
                     <li>
                         <a href='#sobre-nos'>Quem Somos</a>
                     </li>
-                    <li>
-                        <ContactButton href='#contato'>
-                            Contato
-                        </ContactButton>
-                    </li>
                 </ul>
                 <Hamburger onClick={handleMenu} />
             </Container>
@@ -59,11 +54,6 @@ const Header = () => {
                     </li>
                     <li>
                         <a href='#sobre-nos'>Quem Somos</a>
-                    </li>
-                    <li>
-                        <ContactButton href='#contato'>
-                            Contato
-                        </ContactButton>
                     </li>
             </MobileUL>
         </MainHeader>

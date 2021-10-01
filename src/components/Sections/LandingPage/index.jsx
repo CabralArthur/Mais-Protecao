@@ -6,7 +6,6 @@ import HomeSection from '../HomeSection'
 import CardsContainer from '../CardsContainer'
 import ForYouSection from '../ForYouSection'
 import FormSection from '../FormSection'
-import ContactSection from '../ContactSection'
 import Footer from '../Footer'
 import AboutSection from '../AboutSection'
 
@@ -21,7 +20,6 @@ const LandingPage = () => {
                 <CardsContainer/>
                 <ForYouSection/>
                 <FormSection/>
-                <ContactSection/>
                 <Footer/>
             </LandingPageMain>
         </>

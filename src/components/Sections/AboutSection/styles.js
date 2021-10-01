@@ -30,24 +30,27 @@ export const Container = styled.div`
             border-top: 3px solid #015FEA;
         }
     }
-    div{
-        border: 2px solid #C6CCE0;
-        border-radius: 10px;
-        padding: 1rem 0;
-        margin: .5rem;
-        header{
-            h3{
-                padding-left: .5rem;
-            }
-            width: 100%;
-            color: #015FEA;
+    section{
+        display: flex;
+        div{
+            max-width: 300px;
+            border: 2px solid #C6CCE0;
+            border-radius: 10px;
             padding: 1rem 0;
-            margin-bottom: 1rem;
-            border-bottom: 2px solid #C6CCE0;
-        }
-        p{
-            max-width:600px;
-            padding: .5rem;
+            margin: .5rem;
+            header{
+                h3{
+                    padding-left: .5rem;
+                }
+                width: 100%;
+                color: #015FEA;
+                padding: 1rem 0;
+                margin-bottom: 1rem;
+            }
+            p{
+                max-width:600px;
+                padding: .5rem;
+            }
         }
     }
 `;

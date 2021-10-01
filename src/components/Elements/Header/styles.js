@@ -76,23 +76,3 @@ export const MobileUL = styled.ul`
         }
     }
 `
-
-export const ContactButton = styled.a`
-    padding: .5rem 1.5rem;
-    background-color: #015FEA;
-    color: #FFFFFF !important;
-    border-radius: 10px;
-    transition: all .2s;
-    &:hover{
-        color: #015FEA !important;
-        background-color: #FFFFFF;
-        transform: scale(.4);
-    }
-    &:hover:before{
-        width: 0 !important;
-    }
-    @media all and (max-width: 760px){
-        background-color: #FFFFFF;
-        color: #015FEA !important;
-    }
-`
