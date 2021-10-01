@@ -32,6 +32,7 @@ export const Container = styled.div`
     }
     section{
         display: flex;
+        flex-wrap: wrap;
         div{
             max-width: 300px;
             border: 2px solid #C6CCE0;
