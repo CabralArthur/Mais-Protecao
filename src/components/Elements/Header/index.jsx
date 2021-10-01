@@ -24,19 +24,16 @@ const Header = () => {
                         <a href='/'>Home</a>
                     </li>
                     <li>
-                        <a href='#sobre-nos'>Sobre</a>
-                    </li>
-                    <li>
-                        <a href='#clube-de-beneficios'>Clube De Benefícios</a>
+                        <a href='#para-voce'>Para Você</a>
                     </li>
                     <li>
                         <a href='#para-seu-negocio'>Para Seu Negócio</a>
                     </li>
                     <li>
-                        <a href='#para-voce'>Para Você</a>
+                        <a href='#solicitar-cotacao'>Solicitar Cotação</a>
                     </li>
                     <li>
-                        <a href='#solicitar-cotacao'>Solicitar Cotação</a>
+                        <a href='#sobre-nos'>Quem Somos</a>
                     </li>
                     <li>
                         <ContactButton href='#contato'>
@@ -52,19 +49,16 @@ const Header = () => {
                         <a href='/'>Home</a>
                     </li>
                     <li>
-                        <a href='#sobre-nos'>Sobre</a>
-                    </li>
-                    <li>
-                        <a href='#clube-de-beneficios'>Clube De Benefícios</a>
+                        <a href='#para-voce'>Para Você</a>
                     </li>
                     <li>
                         <a href='#para-seu-negocio'>Para Seu Negócio</a>
                     </li>
                     <li>
-                        <a href='#para-voce'>Para Você</a>
+                        <a href='#solicitar-cotacao'>Solicitar Cotação</a>
                     </li>
                     <li>
-                        <a href='#solicitar-cotacao'>Solicitar Cotação</a>
+                        <a href='#sobre-nos'>Quem Somos</a>
                     </li>
                     <li>
                         <ContactButton href='#contato'>

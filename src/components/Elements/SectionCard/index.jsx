@@ -9,11 +9,11 @@ const SectionCard = (props) => {
                 <DivIcon>
                     {props.component}
                 </DivIcon>
-                <div>
-                    <h2>{props.title}</h2>
-                    <p>{props.text}</p>
-                </div>
             </Card>
+            <div>
+                <h2>{props.title}</h2>
+                <p>{props.text}</p>
+            </div>
         </Content>
     )
 }

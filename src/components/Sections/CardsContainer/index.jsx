@@ -13,7 +13,9 @@ const CardsContainer = () => {
                 src="http://seudescontolegal.com.br/wp-content/uploads/2018/05/new-york-2998786_1280.jpg"
                 component={<FaTaxi/>}
                 title="Proteção Taxi"
-                text="Lorem ipsum dolor sit amet."/>
+                text="
+                Se você taxista, mototaxista ou motorista de aplicativo e está procurando proteção para o seu veículo, a MAIS Proteção pode te ajudar com as melhores condições!
+                "/>
 
                 <SectionCard
                 src="https://www.apvs.org.br/assets/images/xprotecao-moto.jpg.pagespeed.ic._3tyd9cUxl.webp"

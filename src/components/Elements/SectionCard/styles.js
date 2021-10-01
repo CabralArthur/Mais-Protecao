@@ -4,6 +4,18 @@ export const Content = styled.div`
     height: 350px;
     width: 280px;
     margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    &:hover{
+        transform: scale(1.2);
+    }
+    transition: all .5s;
+    div{
+        h2, p{
+            color: #015FEA;
+        }
+    }
 `
 
 export const Card = styled.div`
@@ -30,10 +42,6 @@ export const Card = styled.div`
         @media all and (max-width: 900px) {
             height: 250px;
         }
-    }
-    transition: all .5s;
-    &:hover{
-        transform: scale(1.2);
     }
 `
 
