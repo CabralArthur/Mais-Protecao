@@ -5,7 +5,7 @@ import { AiFillInstagram, AiFillFacebook } from 'react-icons/ai'
 
 const Footer = () => {
     return (
-        <MainFooter>
+        <MainFooter id='contato'>
             <Content>
                 <LeftSide>
                     <img src={LogoSource} alt="Logo" />

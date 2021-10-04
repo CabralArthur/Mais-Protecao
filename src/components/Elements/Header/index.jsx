@@ -35,6 +35,9 @@ const Header = () => {
                     <li>
                         <a href='#sobre-nos'>Quem Somos</a>
                     </li>
+                    <li>
+                        <a href='#contato'>Contato</a>
+                    </li>
                 </ul>
                 <Hamburger onClick={handleMenu} />
             </Container>
@@ -54,6 +57,9 @@ const Header = () => {
                     </li>
                     <li>
                         <a href='#sobre-nos'>Quem Somos</a>
+                    </li>
+                    <li>
+                        <a href='#contato'>Contato</a>
                     </li>
             </MobileUL>
         </MainHeader>

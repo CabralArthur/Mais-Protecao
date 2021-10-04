@@ -13,22 +13,10 @@ export const Container = styled.div`
         color: #015FEA;
         text-align: center;
         margin-bottom: 2rem;
-        &::before{
-            content: "";
-            position: absolute;
-            left: .5rem;
-            top: -5px;
-            width: 150px;
-            border-top: 3px solid #015FEA;
-        }
-        &::after{
-            content: "";
-            position: absolute;
-            left: -.1rem;
-            top: 45px;
-            width: 175px;
-            border-top: 3px solid #015FEA;
-        }
+    }
+    span{
+        text-align: center;
+        max-width: 800px;
     }
     section{
         display: flex;
