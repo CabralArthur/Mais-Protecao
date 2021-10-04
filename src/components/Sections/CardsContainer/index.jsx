@@ -18,7 +18,7 @@ const CardsContainer = () => {
                 "/>
 
                 <SectionCard
-                src="https://www.apvs.org.br/assets/images/xprotecao-moto.jpg.pagespeed.ic._3tyd9cUxl.webp"
+                src="https://cdn.discordapp.com/attachments/859989475417522217/894605719448481823/car-driving-vehicle-drive-mobile-phone-sports-car-167000-pxhere_1.jpg"
                 component={ <MdPhoneAndroid/> }
                 title="Proteção Para Motoristas de App's"
                 text="Lorem ipsum dolor sit amet."/>
