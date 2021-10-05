@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, MainTitle } from './styles';
+import { Container, MainTitle, DesktopDiv, MobileDiv } from './styles';
 import { Carousel } from 'react-carousel-minimal';
 
 const CarouselSection = () => {
@@ -27,6 +27,7 @@ const CarouselSection = () => {
             <MainTitle>
               Clube De Benefícios
             </MainTitle>
+            
             <Carousel
             data={data}
             time={5000}
@@ -47,7 +48,7 @@ const CarouselSection = () => {
               maxWidth: "1120px",
               maxHeight: "500px",
             }}
-          />
+            />
         </Container>
     )
 }
