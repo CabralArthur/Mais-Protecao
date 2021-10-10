@@ -15,11 +15,11 @@ const LandingPage = () => {
             <Header/>
             <LandingPageMain>
                 <HomeSection/>
-                <CarouselSection/>
-                <CardsContainer/>
                 <ForYouSection/>
+                <CardsContainer/>
                 <FormSection/>
                 <AboutSection/>
+                <CarouselSection/>
                 <Footer/>
             </LandingPageMain>
         </>

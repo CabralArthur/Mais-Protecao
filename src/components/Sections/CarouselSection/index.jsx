@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, MainTitle, DesktopDiv, MobileDiv } from './styles';
+import { Container, MainTitle } from './styles';
 import { Carousel } from 'react-carousel-minimal';
 
 const CarouselSection = () => {
