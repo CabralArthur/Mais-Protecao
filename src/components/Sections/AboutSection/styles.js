@@ -21,6 +21,8 @@ export const Container = styled.div`
     section{
         display: flex;
         flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
         div{
             max-width: 300px;
             border: 2px solid #C6CCE0;
